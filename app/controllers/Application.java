@@ -30,7 +30,7 @@ public class Application extends Controller {
             String line = br.readLine();
             while (line != null) {
                 sb.append(line);
-                sb.append("\n");
+                sb.append(System.lineSeparator());
                 line = br.readLine();
             }
             everything = sb.toString();

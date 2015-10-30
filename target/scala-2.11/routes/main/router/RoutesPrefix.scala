@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/lakhdeep/Stuff/play/activator-1.3.6-minimal/play-java/conf/routes
-// @DATE:Wed Oct 28 17:13:07 SGT 2015
+// @SOURCE:/Users/lakhdeep/dashboard-backend/conf/routes
+// @DATE:Thu Oct 29 14:24:57 SGT 2015
 
 
 package router {
