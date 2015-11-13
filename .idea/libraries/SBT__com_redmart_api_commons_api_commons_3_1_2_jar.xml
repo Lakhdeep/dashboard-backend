@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.redmart.api.commons:api-commons:3.1.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.redmart.api.commons/api-commons/jars/api-commons-3.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

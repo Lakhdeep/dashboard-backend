@@ -4,7 +4,7 @@
 		module="dashboard-backend-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20151029142447"
+		publication="20151113140645"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

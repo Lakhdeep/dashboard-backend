@@ -1,0 +1,4 @@
+[0m[[31merror[0m] [0m/Users/lakhdeep/dashboard-backend/app/controllers/Application.java:50: cannot find symbol[0m
+[0m[[31merror[0m] [0m  symbol:   variable example[0m
+[0m[[31merror[0m] [0m  location: class controllers.Application[0m
+[0m[[31merror[0m] [0mexample[0m

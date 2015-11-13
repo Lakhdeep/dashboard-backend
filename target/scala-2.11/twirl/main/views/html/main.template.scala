@@ -41,8 +41,9 @@ Seq[Any](format.raw/*1.32*/("""
         <script src=""""),_display_(/*10.23*/routes/*10.29*/.Assets.versioned("javascripts/hello.js")),format.raw/*10.70*/("""" type="text/javascript"></script>
     </head>
     <body>
-        """),_display_(/*13.10*/content),format.raw/*13.17*/("""
-    """),format.raw/*14.5*/("""</body>
+    <p>Hello World</p>
+        """),_display_(/*14.10*/content),format.raw/*14.17*/("""
+    """),format.raw/*15.5*/("""</body>
 </html>
 """))
       }
@@ -64,11 +65,11 @@ Seq[Any](format.raw/*1.32*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Wed Oct 28 17:13:08 SGT 2015
-                  SOURCE: /Users/lakhdeep/Stuff/play/activator-1.3.6-minimal/play-java/app/views/main.scala.html
-                  HASH: 1d71e5a57e6705098fc1b5447ce76b35638f9469
-                  MATRIX: 748->1|873->31|901->33|988->94|1013->99|1101->161|1115->167|1177->208|1264->269|1278->275|1338->314|1390->339|1405->345|1467->386|1561->453|1589->460|1621->465
-                  LINES: 27->1|32->1|34->3|38->7|38->7|39->8|39->8|39->8|40->9|40->9|40->9|41->10|41->10|41->10|44->13|44->13|45->14
+                  DATE: Fri Nov 13 14:09:56 SGT 2015
+                  SOURCE: /Users/lakhdeep/dashboard-backend/app/views/main.scala.html
+                  HASH: 5e49b79470be037ef856e763b4ca0b095cefa44a
+                  MATRIX: 748->1|873->31|901->33|988->94|1013->99|1101->161|1115->167|1177->208|1264->269|1278->275|1338->314|1390->339|1405->345|1467->386|1584->476|1612->483|1644->488
+                  LINES: 27->1|32->1|34->3|38->7|38->7|39->8|39->8|39->8|40->9|40->9|40->9|41->10|41->10|41->10|45->14|45->14|46->15
                   -- GENERATED --
               */
           

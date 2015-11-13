@@ -4,7 +4,7 @@
 		module="play-java_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20151029142457"
+		publication="20151113140956"
 	>
 		<description>
 		play-java
@@ -49,5 +49,8 @@
 		<dependency org="org.mongodb.morphia" name="morphia" rev="1.0.1" conf="compile->default(compile)"/>
 		<dependency org="junit" name="junit" rev="4.11" conf="compile->default(compile)"/>
 		<dependency org="com.google.inject" name="guice" rev="4.0" conf="compile->default(compile)"/>
+		<dependency org="com.redmart.api.commons" name="api-commons" rev="3.1.2" conf="compile->default(compile)">
+			<exclude org="org.slf4j" module="slf4j-log4j12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
 	</dependencies>
 </ivy-module>

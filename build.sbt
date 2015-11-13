@@ -12,7 +12,8 @@ libraryDependencies ++= Seq(
   javaWs,
   "org.mongodb.morphia" % "morphia" % "1.0.1",
   "junit" % "junit" % "4.11",
-  "com.google.inject" % "guice" % "4.0"
+  "com.google.inject" % "guice" % "4.0",
+  "com.redmart.api.commons" % "api-commons" % "3.1.2" exclude("org.slf4j", "slf4j-log4j12")
 )
 
 // Play provides two styles of routers, one expects its actions to be injected, the

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.redmart.micro-service-dto:member-service-dto:2.0.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.redmart.micro-service-dto/member-service-dto/jars/member-service-dto-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
