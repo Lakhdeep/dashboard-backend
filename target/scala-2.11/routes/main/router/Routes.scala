@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/lakhdeep/dashboard-backend/conf/routes
-// @DATE:Fri Nov 13 14:09:56 SGT 2015
+// @DATE:Tue Nov 17 17:48:47 SGT 2015
 
 package router
 
@@ -46,6 +46,7 @@ class Routes(
     ("""GET""", this.prefix, """controllers.Application.index()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """travisLog""", """controllers.Application.getLog()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """travisSummary""", """controllers.Application.getSummary()"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -104,6 +105,23 @@ class Routes(
     )
   )
 
+  // @LINE:13
+  private[this] lazy val controllers_Application_getSummary3_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("travisSummary")))
+  )
+  private[this] lazy val controllers_Application_getSummary3_invoker = createInvoker(
+    Application_1.getSummary(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "getSummary",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """travisSummary"""
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -123,6 +141,12 @@ class Routes(
     case controllers_Application_getLog2_route(params) =>
       call { 
         controllers_Application_getLog2_invoker.call(Application_1.getLog())
+      }
+  
+    // @LINE:13
+    case controllers_Application_getSummary3_route(params) =>
+      call { 
+        controllers_Application_getSummary3_invoker.call(Application_1.getSummary())
       }
   }
 }

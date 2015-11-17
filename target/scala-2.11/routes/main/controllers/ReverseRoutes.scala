@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/lakhdeep/dashboard-backend/conf/routes
-// @DATE:Fri Nov 13 14:09:56 SGT 2015
+// @DATE:Tue Nov 17 17:48:47 SGT 2015
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -39,6 +39,12 @@ package controllers {
     def getLog(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "travisLog")
+    }
+  
+    // @LINE:13
+    def getSummary(): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "travisSummary")
     }
   
     // @LINE:6

@@ -4,7 +4,7 @@
 		module="dashboard-backend-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20151113140645"
+		publication="20151117174710"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
@@ -35,7 +35,7 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);provided->default(compile)"/>
-		<dependency org="org.scala-sbt" name="sbt" rev="0.13.8" conf="provided->default(compile)"/>
+		<dependency org="org.scala-sbt" name="sbt" rev="0.13.8-M3" conf="provided->default(compile)"/>
 		<dependency org="com.github.mpeltonen" name="sbt-idea" rev="1.6.0" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 		<dependency org="com.typesafe.play" name="sbt-fork-run-plugin" rev="2.4.3" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 		<dependency org="com.typesafe.play" name="sbt-plugin" rev="2.4.3" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>

@@ -15,17 +15,24 @@ public class TravisLog {
     @Id
     @Property("_id")
     private ObjectId objectId;
-    private String path;
+    private String pathToSummary;
+    private String pathToLog;
     private Date createdDateTime;
 
-    public String getPath() {
-
-        return path;
+    public String getPathToSummary() {
+        return pathToSummary;
     }
 
-    public void setPath(String path) {
+    public void setPathToSummary(String pathToSummary) {
+        this.pathToSummary = pathToSummary;
+    }
 
-        this.path = path;
+    public String getPathToLog() {
+        return pathToLog;
+    }
+
+    public void setPathToLog(String pathToLog) {
+        this.pathToLog = pathToLog;
     }
 
     public Date getCreatedDateTime() {

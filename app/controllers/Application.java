@@ -30,7 +30,7 @@ public class Application extends BaseController {
         TravisLog travisLog = service.findOneTravisLog();
         String everything = "";
         try {
-            BufferedReader br = new BufferedReader(new FileReader(travisLog.getPath()));
+            BufferedReader br = new BufferedReader(new FileReader(travisLog.getPathToLog()));
             StringBuilder sb = new StringBuilder();
             String line = br.readLine();
             while (line != null) {
@@ -43,6 +43,31 @@ public class Application extends BaseController {
             e.printStackTrace();
         }
 //        return ok(index.render(everything));
+        if (everything == null) {
+            return send404(404, Messages.get("example.not.found"));
+        } else {
+            JsonResponse jr = new JsonResponse(200, Messages.get("example.found"));
+            jr.put("example", everything);
+            return send200(jr);
+        }
+    }
+
+    public Result getSummary() {
+        TravisLog travisLog = service.findOneTravisLog();
+        String everything = "";
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(travisLog.getPathToSummary()));
+            StringBuilder sb = new StringBuilder();
+            String line = br.readLine();
+            while (line != null) {
+                sb.append(line);
+                sb.append(System.lineSeparator());
+                line = br.readLine();
+            }
+            everything = sb.toString();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         if (everything == null) {
             return send404(404, Messages.get("example.not.found"));
         } else {

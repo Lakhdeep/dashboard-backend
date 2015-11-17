@@ -1,4 +1,4 @@
-[0m[[31merror[0m] [0m/Users/lakhdeep/dashboard-backend/app/controllers/Application.java:50: cannot find symbol[0m
-[0m[[31merror[0m] [0m  symbol:   variable example[0m
-[0m[[31merror[0m] [0m  location: class controllers.Application[0m
-[0m[[31merror[0m] [0mexample[0m
+[0m[[0minfo[0m] [0m/Users/lakhdeep/dashboard-backend/app/dao/impl/TravisLogDaoImpl.java: /Users/lakhdeep/dashboard-backend/app/dao/impl/TravisLogDaoImpl.java uses or overrides a deprecated API.[0m
+[0m[[0minfo[0m] [0m/Users/lakhdeep/dashboard-backend/app/dao/impl/TravisLogDaoImpl.java: Recompile with -Xlint:deprecation for details.[0m
+[0m[[0minfo[0m] [0m/Users/lakhdeep/dashboard-backend/app/dao/impl/TravisLogDaoImpl.java: /Users/lakhdeep/dashboard-backend/app/dao/impl/TravisLogDaoImpl.java uses unchecked or unsafe operations.[0m
+[0m[[0minfo[0m] [0m/Users/lakhdeep/dashboard-backend/app/dao/impl/TravisLogDaoImpl.java: Recompile with -Xlint:unchecked for details.[0m

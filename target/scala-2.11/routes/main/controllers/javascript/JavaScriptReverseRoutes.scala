@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/lakhdeep/dashboard-backend/conf/routes
-// @DATE:Fri Nov 13 14:09:56 SGT 2015
+// @DATE:Tue Nov 17 17:48:47 SGT 2015
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -49,6 +49,16 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "travisLog"})
+        }
+      """
+    )
+  
+    // @LINE:13
+    def getSummary: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.getSummary",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "travisSummary"})
         }
       """
     )
