@@ -5,3 +5,12 @@ New client attempting to connect on port: 57271-57270
 This client on port 57271 has uuid 51330209-ddff-416c-b38c-3785418ddcb3 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
 Connected Clients: play-fork-run-51330209-ddff-416c-b38c-3785418ddcb3
 Taking next connection to: 57270
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57270
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57270
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 57270

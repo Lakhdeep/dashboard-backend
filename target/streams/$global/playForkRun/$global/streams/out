@@ -289,3 +289,7 @@
 [0m[[33mwarn[0m] [0m- application - Creating a new token for salt  and apiConsumerId null[0m
 [0m[[0mdebug[0m] [0m- application - Starting processing at base action: GET /travisSummary[0m
 [0m[[33mwarn[0m] [0m- application - Creating a new token for salt  and apiConsumerId null[0m
+[0m[[0minfo[0m] [0mStopping Play fork run ...[0m
+[0m[[0minfo[0m] [0mJVM exiting, shutting down Play fork run ...[0m
+[0m[[0minfo[0m] [0mPlay fork run already stopped ...[0m
+[0m[[0minfo[0m] [0mForked Play process exited with status: 129[0m
